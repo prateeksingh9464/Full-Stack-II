@@ -173,18 +173,18 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
           <div key="twitter" className="mock-card twitter">
             <div className="card-header">
               <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80" 
+                src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=150&h=150&q=80" 
                 className="card-avatar" 
                 alt="Profile Avatar" 
               />
               <div className="card-user-info">
                 <span className="card-user-name">
-                  Jane Doe
+                  Priya Sharma
                   <svg viewBox="0 0 24 24" width="16" height="16" fill="#1d9bf0">
                     <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
                   </svg>
                 </span>
-                <span className="card-user-handle">@janedoe · 1m</span>
+                <span className="card-user-handle">@priyasharma · 2m</span>
               </div>
               <MoreHorizontal size={16} style={{ marginLeft: 'auto', color: '#71767b' }} />
             </div>
@@ -196,10 +196,10 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
             {renderMediaGrid('twitter')}
 
             <div className="twitter-actions-bar">
-              <div className="twitter-action reply"><MessageCircle size={16} /> <span>12</span></div>
-              <div className="twitter-action retweet"><Repeat2 size={16} /> <span>5</span></div>
-              <div className="twitter-action like"><Heart size={16} /> <span>142</span></div>
-              <div className="twitter-action views"><Bookmark size={16} /> <span>3</span></div>
+              <div className="twitter-action reply"><MessageCircle size={16} /> <span>28</span></div>
+              <div className="twitter-action retweet"><Repeat2 size={16} /> <span>14</span></div>
+              <div className="twitter-action like"><Heart size={16} /> <span>317</span></div>
+              <div className="twitter-action views"><Bookmark size={16} /> <span>9</span></div>
               <Share2 size={16} style={{ cursor: 'pointer' }} />
             </div>
           </div>
@@ -210,14 +210,14 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
           <div key="facebook" className="mock-card facebook">
             <div className="card-header">
               <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80" 
+                src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=150&h=150&q=80" 
                 className="card-avatar" 
                 alt="Profile Avatar" 
               />
               <div className="card-user-info">
-                <span className="card-user-name">Jane Doe</span>
+                <span className="card-user-name">Priya Sharma</span>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                  <span className="card-post-time">1 min · </span>
+                  <span className="card-post-time">2 min · </span>
                   <Globe size={12} style={{ color: 'var(--text-muted)' }} />
                 </div>
               </div>
@@ -233,9 +233,9 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
             <div className="facebook-reactions-info">
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
                 <span style={{ background: '#1877f2', borderRadius: '50%', width: '16px', height: '16px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '10px' }}>👍</span>
-                <span>Jane Doe and 24 others</span>
+                <span>Priya Sharma and 51 others</span>
               </div>
-              <div>4 comments</div>
+              <div>11 comments</div>
             </div>
 
             <div className="facebook-actions-bar">
@@ -251,14 +251,14 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
           <div key="instagram" className="mock-card instagram">
             <div className="card-header">
               <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80" 
+                src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=150&h=150&q=80" 
                 className="card-avatar" 
                 alt="Profile Avatar" 
                 style={{ border: '2px solid #e4405f', padding: '1px' }}
               />
               <div className="card-user-info">
-                <span className="card-user-name">janedoe</span>
-                <span className="card-post-time">New York, NY</span>
+                <span className="card-user-name">priya.sharma</span>
+                <span className="card-post-time">Mumbai, India</span>
               </div>
               <MoreHorizontal size={18} style={{ marginLeft: 'auto', color: 'var(--text-primary)' }} />
             </div>
@@ -274,10 +274,10 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
               <Bookmark size={22} style={{ cursor: 'pointer' }} />
             </div>
 
-            <div className="instagram-likes">235 likes</div>
+            <div className="instagram-likes">482 likes</div>
             
             <div className="instagram-caption">
-              <span className="username">janedoe</span>
+              <span className="username">priya.sharma</span>
               {formatFeedText(text)}
             </div>
           </div>
@@ -288,18 +288,18 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
           <div key="linkedin" className="mock-card linkedin">
             <div className="card-header">
               <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80" 
+                src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=150&h=150&q=80" 
                 className="card-avatar" 
                 alt="Profile Avatar" 
               />
               <div className="card-user-info">
                 <span className="card-user-name">
-                  Jane Doe 
+                  Priya Sharma 
                   <span className="linkedin-user-badge">1st</span>
                 </span>
-                <span className="card-user-handle" style={{ fontSize: '0.75rem' }}>Product Marketing Manager | Tech Advocate</span>
+                <span className="card-user-handle" style={{ fontSize: '0.75rem' }}>Full-Stack Developer | Open Source Contributor</span>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                  <span className="card-post-time">1m · </span>
+                  <span className="card-post-time">2m · </span>
                   <Globe2 size={12} style={{ color: 'var(--text-muted)' }} />
                 </div>
               </div>
@@ -313,8 +313,8 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
             {renderMediaGrid('linkedin')}
 
             <div className="linkedin-stats">
-              <span>👍 15 · 💜 2</span>
-              <span>3 comments</span>
+              <span>👍 38 · 🎉 7</span>
+              <span>12 comments</span>
             </div>
 
             <div className="linkedin-actions-bar">
